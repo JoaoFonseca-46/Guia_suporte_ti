@@ -1,0 +1,90 @@
+{
+  "categorias": [
+    {
+      "titulo": "Protheus",
+      "imagem": "protheus.jpg",
+      "subcategorias": [
+        {
+          "titulo": "Principais Problemas",
+          "problemas": [
+            {
+              "titulo": "Erro ao acessar o sistema",
+              "passos": [
+                "Verifique se o usuário e senha estão corretos.",
+                "Confirme se o ambiente selecionado é o correto.",
+                "Reinicie o sistema e tente novamente.",
+                "Caso persista, abra chamado informando a mensagem apresentada."
+              ]
+            },
+            {
+              "titulo": "Sistema lento ou travando",
+              "passos": [
+                "Feche programas desnecessários.",
+                "Verifique sua conexão com a rede.",
+                "Reinicie o computador.",
+                "Informe à TI caso o problema continue."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "SGMP",
+      "imagem": "sgmp.jpg",
+      "subcategorias": [
+        {
+          "titulo": "Principais Problemas",
+          "problemas": [
+            {
+              "titulo": "Erro de login",
+              "passos": [
+                "Confirme se o login está correto.",
+                "Verifique se a senha não foi alterada.",
+                "Tente redefinir a senha se aplicável.",
+                "Caso não consiga acessar, abra chamado."
+              ]
+            },
+            {
+              "titulo": "Acesso negado a funcionalidade",
+              "passos": [
+                "Verifique se possui permissão para o módulo.",
+                "Confirme com o gestor a necessidade de acesso.",
+                "Solicite ajuste de perfil via chamado."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Coletor de Dados",
+      "imagem": "coletor.jpg",
+      "subcategorias": [
+        {
+          "titulo": "Principais Problemas",
+          "problemas": [
+            {
+              "titulo": "Não sincroniza com o sistema",
+              "passos": [
+                "Verifique se está conectado à rede correta.",
+                "Reinicie o coletor.",
+                "Tente sincronizar novamente.",
+                "Caso continue sem sincronizar, informe a TI."
+              ]
+            },
+            {
+              "titulo": "Não realiza leitura de código",
+              "passos": [
+                "Limpe o leitor do equipamento.",
+                "Verifique se o código não está danificado.",
+                "Teste outro item.",
+                "Se não funcionar, solicite verificação do equipamento."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

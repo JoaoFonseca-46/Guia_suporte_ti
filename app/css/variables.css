@@ -1,0 +1,23 @@
+:root {
+    --cor-fundo-principal: #f4f6f8;
+    --cor-fundo-card: #ffffff;
+    --cor-fundo-hover: #f0f2f5;
+    --cor-sidebar: #1f2933;
+    --cor-sidebar-secundaria: #cbd2d9;
+    --cor-borda: #e4e7eb;
+    --cor-texto-principal: #102a43;
+    --cor-texto-secundario: #52606d;
+
+    --sombra-suave: 0 4px 14px rgba(0, 0, 0, 0.05);
+
+    --espacamento-xs: 4px;
+    --espacamento-sm: 8px;
+    --espacamento-md: 16px;
+    --espacamento-lg: 24px;
+    --espacamento-xl: 32px;
+
+    --fonte-sm: 13px;
+    --fonte-md: 15px;
+    --fonte-lg: 18px;
+    --fonte-xl: 22px;
+}
