@@ -5,23 +5,18 @@
       "imagem": "outlook.jpg",
       "subcategorias": [
         {
-          "titulo": "Envio e Recebimento",
+          "titulo": "",
           "problemas": [
             {
-              "titulo": "E-mail não envia",
+              "titulo": "",
               "passos": [
-                "Verifique a conexão com a internet.",
-                "Confirme se não há mensagens presas na caixa de saída.",
-                "Verifique se a caixa postal não está cheia.",
-                "Reinicie o Outlook."
+                
               ]
             },
             {
-              "titulo": "E-mail não recebe",
+              "titulo": "",
               "passos": [
-                "Atualize a caixa de entrada.",
-                "Verifique filtros ou regras configuradas.",
-                "Confirme se a caixa não atingiu o limite de armazenamento."
+                
               ]
             }
           ]
@@ -33,28 +28,23 @@
       "imagem": "excel.jpg",
       "subcategorias": [
         {
-          "titulo": "Arquivos",
+          "titulo": "",
           "problemas": [
             {
-              "titulo": "Arquivo não abre",
+              "titulo": "",
               "passos": [
-                "Verifique se o arquivo não está corrompido.",
-                "Tente abrir em outro computador.",
-                "Confirme se possui permissão de acesso."
+               
               ]
             }
           ]
         },
         {
-          "titulo": "Desempenho",
+          "titulo": "",
           "problemas": [
             {
-              "titulo": "Planilha lenta",
+              "titulo": "",
               "passos": [
-                "Verifique se há muitas fórmulas complexas.",
-                "Feche outras planilhas abertas.",
-                "Salve o arquivo localmente e teste novamente.",
-                "Reinicie o Excel."
+               
               ]
             }
           ]
@@ -66,14 +56,12 @@
       "imagem": "word.jpg",
       "subcategorias": [
         {
-          "titulo": "Documentos",
+          "titulo": "",
           "problemas": [
             {
-              "titulo": "Documento bloqueado para edição",
+              "titulo": "",
               "passos": [
-                "Verifique se o arquivo está em modo somente leitura.",
-                "Salve uma nova cópia do documento.",
-                "Confirme se o arquivo não está aberto por outro usuário."
+                
               ]
             }
           ]
@@ -81,19 +69,16 @@
       ]
     },
     {
-      "titulo": "OneDrive",
-      "imagem": "onedrive.jpg",
+      "titulo": "SharePoint",
+      "imagem": "sharepoint.jpg",
       "subcategorias": [
         {
-          "titulo": "Sincronização",
+          "titulo": "",
           "problemas": [
             {
-              "titulo": "Arquivo não sincroniza",
+              "titulo": "",
               "passos": [
-                "Verifique se está conectado à internet.",
-                "Confirme se o OneDrive está ativo na barra de tarefas.",
-                "Reinicie o aplicativo.",
-                "Verifique se há espaço disponível na conta."
+               
               ]
             }
           ]

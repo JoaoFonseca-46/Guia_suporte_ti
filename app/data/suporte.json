@@ -306,7 +306,7 @@
           "titulo": "Wi-Fi desconecta sozinho",
           "passos": [
             "Clique no Wi-Fi e conecte novamente na rede.",
-            "Verifique se está perto do ponto de acesso.",
+            "Verifique se está perto de um ponto de acesso.",
             "Reinicie o computador.",
             "Teste novamente após reiniciar.",
             "Se continuar desconectando, abra um chamado."
@@ -352,7 +352,7 @@
           "passos": [
             "Verifique se o cabo está bem encaixado.",
             "Desconecte e conecte novamente.",
-            "Teste outra entrada de rede se houver (na mesa, ou onde tem outro ponto de rede).",
+            "Teste outro ponto de rede (na mesa, ou na parede).",
             "Reinicie o computador.",
             "Se continuar sem conexão, abra um chamado."
           ]
@@ -401,7 +401,7 @@
 
     {
   "titulo": "Uso Básico do Equipamento",
-  "imagem": "uso_basico.jpg",
+  "imagem": "usobasico.jpg",
   "subcategorias": [
     {
       "titulo": "Desligamento e Reinício",
@@ -425,7 +425,7 @@
           ]
         },
         {
-          "titulo": "Computador travado ao desligar",
+          "titulo": "Computador travado no desligamento",
           "passos": [
             "Aguarde alguns minutos.",
             "Verifique se há atualizações em andamento.",
@@ -457,14 +457,14 @@
             "Se aparecer erro ao remover, abra um chamado."
           ]
         },
-        {
-          "titulo": "Notebook fora da base (dock)",
+       {
+                    "titulo": "Boas Práticas no Uso do Notebook Corporativo",
           "passos": [
-            "Verifique se o notebook está bem encaixado.",
-            "Confirme se os cabos estão conectados.",
-            "Reinicie o notebook.",
-            "Teste se monitor e teclado funcionam.",
-            "Se não funcionar, abra um chamado."
+            "Utilize o equipamento apenas para atividades profissionais.",
+            "Mantenha o sistema sempre atualizado e não desative antivírus.",
+            "Evite instalar programas sem autorização da TI.",
+            "Proteja seu login e senha, não compartilhe com terceiros.",
+            "Ao finalizar o expediente, desligue ou bloqueie o notebook corretamente."
           ]
         },
         {
@@ -483,262 +483,259 @@
 },
 
     {
-      "titulo": "Áudio e Vídeo",
-      "imagem": "audio.jpg",
-      "subcategorias": [
+  "titulo": "Áudio e Vídeo",
+  "imagem": "audio.jpg",
+  "subcategorias": [
+    {
+      "titulo": "Microfone",
+      "problemas": [
         {
-          "titulo": "Microfone",
-          "problemas": [
-            {
-              "titulo": "Microfone não funciona",
-              "passos": [
-                "Verifique mudo.",
-                "Confirme dispositivo padrão.",
-                "Teste em Configurações.",
-                "Reinicie."
-              ]
-            },
-            {
-              "titulo": "Som baixo",
-              "passos": [
-                "Aumente volume.",
-                "Verifique app.",
-                "Teste outro microfone.",
-                "Reinicie."
-              ]
-            },
-            {
-              "titulo": "Microfone não detectado",
-              "passos": [
-                "Reconecte.",
-                "Teste outra porta.",
-                "Verifique permissões.",
-                "Reinicie."
-              ]
-            },
-            {
-              "titulo": "Eco na reunião",
-              "passos": [
-                "Use fone.",
-                "Reduza volume.",
-                "Feche apps duplicados.",
-                "Teste."
-              ]
-            }
+          "titulo": "Microfone não funciona",
+          "passos": [
+            "Verifique se o microfone não está no modo mudo (botão físico ou no sistema).",
+            "Confirme se o microfone correto está definido como dispositivo padrão nas configurações de som.",
+            "Teste o microfone em Configurações > Som > Entrada.",
+            "Feche e reabra o aplicativo de reunião.",
+            "Reinicie o computador."
           ]
         },
         {
-          "titulo": "Câmera",
-          "problemas": [
-            {
-              "titulo": "Câmera não abre",
-              "passos": [
-                "Verifique permissões.",
-                "Feche app.",
-                "Reabra.",
-                "Reinicie."
-              ]
-            },
-            {
-              "titulo": "Imagem preta",
-              "passos": [
-                "Confirme não está coberta.",
-                "Verifique dispositivo padrão.",
-                "Teste em outro app.",
-                "Reinicie."
-              ]
-            },
-            {
-              "titulo": "Câmera não detectada",
-              "passos": [
-                "Reconecte.",
-                "Teste outra porta.",
-                "Reinicie.",
-                "Teste."
-              ]
-            },
-            {
-              "titulo": "Qualidade ruim",
-              "passos": [
-                "Verifique iluminação.",
-                "Feche apps.",
-                "Teste novamente.",
-                "Reinicie."
-              ]
-            }
+          "titulo": "Som muito baixo",
+          "passos": [
+            "Aumente o volume de entrada nas configurações de som.",
+            "Verifique se o aplicativo de reunião não está com volume reduzido.",
+            "Aproxime o microfone da fonte de voz.",
+            "Teste outro microfone, se disponível.",
+            "Reinicie o computador."
           ]
         },
         {
-          "titulo": "Som",
-          "problemas": [
-            {
-              "titulo": "Sem áudio",
-              "passos": [
-                "Verifique volume.",
-                "Confirme dispositivo.",
-                "Teste outro fone.",
-                "Reinicie."
-              ]
-            },
-            {
-              "titulo": "Som distorcido",
-              "passos": [
-                "Ajuste volume.",
-                "Teste outro fone.",
-                "Feche apps.",
-                "Reinicie."
-              ]
-            },
-            {
-              "titulo": "Dispositivo errado",
-              "passos": [
-                "Selecione correto.",
-                "Teste.",
-                "Reinicie app.",
-                "Confirme."
-              ]
-            },
-            {
-              "titulo": "Fone não reconhecido",
-              "passos": [
-                "Reconecte.",
-                "Teste outra porta.",
-                "Reinicie.",
-                "Teste."
-              ]
-            }
+          "titulo": "Microfone não detectado",
+          "passos": [
+            "Desconecte e reconecte o dispositivo.",
+            "Teste outra porta USB.",
+            "Verifique se o Windows solicitou permissão de acesso ao microfone.",
+            "Reinicie o computador."
+          ]
+        },
+        {
+          "titulo": "Eco ou retorno na reunião",
+          "passos": [
+            "Utilize fones de ouvido em vez do alto-falante.",
+            "Reduza o volume do alto-falante.",
+            "Verifique se não há dois dispositivos de áudio ativos simultaneamente.",
+            "Feche aplicativos de reunião duplicados.",
+            "Teste novamente."
           ]
         }
       ]
     },
+    {
+      "titulo": "Câmera",
+      "problemas": [
+        {
+          "titulo": "Câmera não abre",
+          "passos": [
+            "Verifique se o aplicativo possui permissão para usar a câmera.",
+            "Confirme se a câmera não está sendo utilizada por outro programa.",
+            "Feche e reabra o aplicativo.",
+            "Reinicie o computador."
+          ]
+        },
+        {
+          "titulo": "Imagem preta",
+          "passos": [
+            "Verifique se a lente da câmera não está coberta.",
+            "Faça o teste da câmera em outro software",
+            "Reinicie o computador."
+          ]
+        },
+        {
+          "titulo": "Qualidade de imagem ruim",
+          "passos": [
+            "Melhore a iluminação do ambiente.",
+            "Limpe a lente da câmera com pano seco.",
+            "Feche outros aplicativos que possam estar consumindo internet.",
+            "Verifique a qualidade da conexão de rede.",
+            "Teste novamente."
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Som",
+      "problemas": [
+        {
+          "titulo": "Sem áudio",
+          "passos": [
+            "Verifique se o volume do sistema não está no mínimo ou mudo.",
+            "Confirme se o dispositivo correto está selecionado como saída de áudio.",
+            "Teste outro fone ou alto-falante.",
+            "Reinicie o aplicativo.",
+            "Reinicie o computador."
+          ]
+        },
+        {
+          "titulo": "Som distorcido ou chiando",
+          "passos": [
+            "Reduza o volume do sistema.",
+            "Teste outro fone ou caixa de som.",
+            "Verifique se o cabo está bem conectado.",
+            "Feche aplicativos que utilizam áudio simultaneamente.",
+            "Reinicie o equipamento."
+          ]
+        },
+        {
+          "titulo": "Áudio saindo no dispositivo errado",
+          "passos": [
+            "Acesse as configurações de som.",
+            "Selecione manualmente o dispositivo correto de saída.",
+            "Reinicie o aplicativo de reunião.",
+            "Teste novamente."
+          ]
+        },
+        {
+          "titulo": "Fone não reconhecido",
+          "passos": [
+            "Desconecte e reconecte o fone.",
+            "Teste outra porta USB ou entrada de áudio.",
+            "Verifique se aparece nas configurações de som.",
+            "Reinicie o computador."
+          ]
+        }
+      ]
+    }
+  ]
+},
 
     {
       "titulo": "Periféricos",
       "imagem": "perifericos.jpg",
       "subcategorias": [
         {
-          "titulo": "Mouse",
-          "problemas": [
-            {
-              "titulo": "Mouse não funciona",
-              "passos": [
-                "Troque porta USB.",
-                "Verifique bateria.",
-                "Reconecte.",
-                "Reinicie."
-              ]
-            },
-            {
-              "titulo": "Cursor travado",
-              "passos": [
-                "Limpe superfície.",
-                "Reconecte.",
-                "Teste outra porta.",
-                "Reinicie."
-              ]
-            },
-            {
-              "titulo": "Mouse lento",
-              "passos": [
-                "Ajuste sensibilidade.",
-                "Limpe sensor.",
-                "Teste outra porta.",
-                "Reinicie."
-              ]
-            },
-            {
-              "titulo": "Mouse desconecta",
-              "passos": [
-                "Troque porta.",
-                "Verifique bateria.",
-                "Reconecte.",
-                "Teste."
-              ]
-            }
-          ]
-        },
+  "titulo": "Mouse",
+  "problemas": [
+    {
+      "titulo": "Mouse não funciona",
+      "passos": [
+        "Verifique a conexão do dispositivo.",
+        "Teste em outra porta USB.",
+        "Confirme se há carga na bateria (se for sem fio).",
+        "Problemas com o mouse? solicite um novo em um chamado."
+      ]
+    },
+    {
+      "titulo": "Cursor travando ou sem resposta",
+      "passos": [
+        "Verifique se há alguma avaria na parte de baixo do mouse.",
+        "Desconecte e reconecte o dispositivo.",
+        "Teste em outra porta USB.",
+        "Reinicie o computador."
+      ]
+    },
+    {
+      "titulo": "Movimentação lenta ou imprecisa",
+      "passos": [
+        "Ajuste a velocidade do cursor nas configurações.",
+        "Limpe o sensor na parte inferior.",
+        "Teste em outra superfície.",
+        "Reinicie o equipamento."
+      ]
+    },
+    {
+      "titulo": "Mouse desconectando frequentemente",
+      "passos": [
+        "Verifique o nível da bateria (se aplicável).",
+        "Teste em outra porta USB.",
+        "Reaproxime do receptor (se for sem fio).",
+        "Reinicie o computador."
+      ]
+    }
+  ]
+},
         {
-          "titulo": "Teclado",
-          "problemas": [
-            {
-              "titulo": "Teclado não responde",
-              "passos": [
-                "Reconecte.",
-                "Teste outra porta.",
-                "Verifique idioma.",
-                "Reinicie."
-              ]
-            },
-            {
-              "titulo": "Teclas erradas",
-              "passos": [
-                "Verifique idioma.",
-                "Ajuste layout.",
-                "Teste.",
-                "Reinicie."
-              ]
-            },
-            {
-              "titulo": "Tecla presa",
-              "passos": [
-                "Limpe teclado.",
-                "Verifique sujeira.",
-                "Teste novamente.",
-                "Reinicie."
-              ]
-            },
-            {
-              "titulo": "Teclado sem fio falha",
-              "passos": [
-                "Troque bateria.",
-                "Reconecte receptor.",
-                "Teste.",
-                "Reinicie."
-              ]
-            }
-          ]
-        },
-        {
-          "titulo": "Monitor e Dock",
-          "problemas": [
-            {
-              "titulo": "Monitor sem sinal",
-              "passos": [
-                "Verifique cabo.",
-                "Confirme ligado.",
-                "Troque entrada.",
-                "Reinicie."
-              ]
-            },
-            {
-              "titulo": "Tela duplicada incorreta",
-              "passos": [
-                "Pressione Windows+P.",
-                "Selecione opção correta.",
-                "Confirme.",
-                "Teste."
-              ]
-            },
-            {
-              "titulo": "Dock não reconhece",
-              "passos": [
-                "Reconecte.",
-                "Teste outra porta.",
-                "Reinicie notebook.",
-                "Teste."
-              ]
-            },
-            {
-              "titulo": "Monitor piscando",
-              "passos": [
-                "Verifique cabo.",
-                "Troque porta.",
-                "Teste outro cabo.",
-                "Reinicie."
-              ]
-            }
-          ]
-        }
+  "titulo": "Teclado",
+  "problemas": [
+    {
+      "titulo": "Teclado não responde",
+      "passos": [
+        "Verifique se o teclado está bem conectado ao computador.",
+        "Se for USB, teste outra porta.",
+        "Se for sem fio, verifique as pilhas.",
+        "Reinicie o computador.",
+        "Se não funcionar, acione o suporte."
+      ]
+    },
+    {
+      "titulo": "Teclas digitando caracteres errados",
+      "passos": [
+        "Verifique se o idioma do teclado está correto (PT-BR).",
+        "Pressione Alt + Shift para alternar o idioma.",
+        "Confirme se o layout está configurado como ABNT2.",
+        "Teste digitando novamente."
+      ]
+    },
+    {
+      "titulo": "Tecla travada ou presa",
+      "passos": [
+        "Verifique se há sujeira ou objeto preso na tecla.",
+        "Tire o teclado da sua maquina.",
+        "Limpe com cuidado utilizando um pano seco.",
+        "Teste novamente após a limpeza."
+      ]
+    },
+    {
+      "titulo": "Teclado sem fio não funciona",
+      "passos": [
+        "Troque as pilhas.",
+        "Verifique se o botão liga/desliga está ativado.",
+        "Confirme se o receptor USB está conectado.",
+        "Reinicie o computador."
+      ]
+    }
+  ]
+},
+{
+  "titulo": "Monitor",
+  "problemas": [
+    {
+      "titulo": "Monitor sem imagem",
+      "passos": [
+        "Verifique se o monitor está ligado.",
+        "Confirme se o cabo de energia está conectado.",
+        "Verifique se o cabo de vídeo está bem encaixado.",
+        "Reinicie o computador."
+      ]
+    },
+    {
+      "titulo": "Tela não aparece no segundo monitor",
+      "passos": [
+        "Pressione Windows + P.",
+        "Selecione a opção 'Estender' ou 'Duplicar'.",
+        "Aguarde alguns segundos.",
+        "Se não funcionar, reinicie o computador."
+      ]
+    },
+    {
+      "titulo": "Tela piscando",
+      "passos": [
+        "Verifique se o cabo está bem conectado.",
+        "Teste outro cabo, se disponível.",
+        "Ajuste a resolução nas configurações de tela.",
+        "Reinicie o computador."
+      ]
+    },
+    {
+      "titulo": "Imagem fora de foco ou distorcida",
+      "passos": [
+        "Ajuste a resolução nas configurações de vídeo.",
+        "Verifique se o cabo não está danificado.",
+        "Reinicie o computador.",
+        "Se persistir, acione o suporte."
+      ]
+    }
+  ]
+}
       ]
     }
   ]
